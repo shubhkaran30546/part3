@@ -1,0 +1,44 @@
+﻿<!-- Views/Home/Index.cshtml -->
+
+@{
+    ViewData["Title"] = "Spark";
+}
+@{
+    var customerName = ViewBag.CustomerName as string;
+}
+<style>
+    .contact-image {
+        width: 200px;
+        height: 120px;
+        transition: all 0.3s ease; /* Smooth transition for hover effect */
+        margin: 15px;
+    }
+
+        .contact-image:hover {
+            opacity: 0.7; 
+            border: 2px solid #007bff; 
+        }
+</style>
+
+<div class="container text-center mt-5">
+    @if (!string.IsNullOrEmpty(customerName))
+        {
+        <h1 class="typing-container">Welcome, @customerName!</h1>
+        }
+        else
+        {
+<h1 class="typing-container">Welcome to Spark, Your Ultimate Online Computer Store!. Please <a href="/Account/Login">login</a> or <a href="/Account/Register">register</a>.</h1>
+        }
+</div>
+@*<a href="/Computer/List">Browse</a>*@
+<a href="/Computer/List" title="Contact Us">
+    <img src="images/browse.jpg" alt="Contact" class="contact-image" style="margin-left: 250px;"/>
+</a>
+@*<a href="/Home/Contact">Contact</a>*@
+<a href="/Home/Contact" title="Contact Us">
+    <img src="images/contact.png" alt="Contact" class="contact-image" />
+</a>
+@*<a href="/Home/Feedback">Feedback</a>*@
+<a href="/Home/Feedback" title="Contact Us">
+    <img src="images/feedback.png" alt="Contact" class="contact-image" />
+</a>
