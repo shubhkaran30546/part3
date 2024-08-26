@@ -9,6 +9,7 @@ RUN dotnet restore "part3.csproj"
 # Copy the entire project to the working directory 
 COPY . . 
 # Build the project 
+COPY wwwroot/images /app/wwwroot/images
 RUN dotnet build "part3.csproj" -c Release -o /app/build 
 # Publish the project to a folder 
 RUN dotnet publish "part3.csproj" -c Release -o /app/publish 
