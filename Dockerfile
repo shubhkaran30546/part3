@@ -1,18 +1,22 @@
-# Use the official .NET image from the Docker Hub 
-FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base 
-WORKDIR /app 
-EXPOSE 80 
+# Use the official .NET SDK image as a build environment 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build 
+# Set the working directory inside the container to /src 
 WORKDIR /src 
+# Copy the .csproj file to the working directory 
 COPY ["part3.csproj", "./"] 
+# Restore the dependencies for the project 
 RUN dotnet restore "part3.csproj" 
+# Copy the entire project to the working directory 
 COPY . . 
-WORKDIR "/src/part3" 
+# Build the project 
 RUN dotnet build "part3.csproj" -c Release -o /app/build 
-FROM build AS publish 
+# Publish the project to a folder 
 RUN dotnet publish "part3.csproj" -c Release -o /app/publish 
-FROM base AS final 
+# Use the official .NET runtime image as a base image 
+FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS runtime 
+# Set the working directory to /app 
 WORKDIR /app 
-COPY --from=publish /app/publish . 
-COPY wwwroot/images /app/wwwroot/images
+# Copy the published output from the build stage to the runtime stage 
+COPY --from=build /app/publish . 
+# Define the entry point for the application 
 ENTRYPOINT ["dotnet", "part3.dll"]
