@@ -51,6 +51,6 @@
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="wwwroot\images\browse.jpg" />
+    <None Include="wwwroot\images\browse.png" />
   </ItemGroup>
 </Project>
