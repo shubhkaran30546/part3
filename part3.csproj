@@ -50,7 +50,4 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.20" />
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="wwwroot\images\browse.png" />
-  </ItemGroup>
 </Project>
