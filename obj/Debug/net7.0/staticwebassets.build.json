@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Qsh1zoqdc7qtjCm/dKeYEx325XyQ/s15yVAUta7mssY=",
+  "Hash": "Ufu/zgJsFkd6g3khCD6g1dKwwz4Q94AoYM1OH9I+ia0=",
   "Source": "part3",
   "BasePath": "_content/part3",
   "Mode": "Default",
@@ -1139,12 +1139,12 @@
       "OriginalItemSpec": "wwwroot/images/.DS_Store"
     },
     {
-      "Identity": "/Users/shubhkarandhillon/Projects/part3/part3/wwwroot/images/browse.png",
+      "Identity": "/Users/shubhkarandhillon/Projects/part3/part3/wwwroot/images/browse_comp.png",
       "SourceId": "part3",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/shubhkarandhillon/Projects/part3/part3/wwwroot/",
       "BasePath": "_content/part3",
-      "RelativePath": "images/browse.png",
+      "RelativePath": "images/browse_comp.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1153,7 +1153,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/browse.png"
+      "OriginalItemSpec": "wwwroot/images/browse_comp.png"
     },
     {
       "Identity": "/Users/shubhkarandhillon/Projects/part3/part3/wwwroot/images/contact.png",
@@ -1188,23 +1188,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/feedback.png"
-    },
-    {
-      "Identity": "/Users/shubhkarandhillon/Projects/part3/part3/wwwroot/images/pngegg.png",
-      "SourceId": "part3",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/shubhkarandhillon/Projects/part3/part3/wwwroot/",
-      "BasePath": "_content/part3",
-      "RelativePath": "images/pngegg.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/pngegg.png"
     },
     {
       "Identity": "/Users/shubhkarandhillon/Projects/part3/part3/wwwroot/js/site.js",

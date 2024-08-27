@@ -21,8 +21,8 @@
       "PackagePath": "staticwebassets/images/.DS_Store"
     },
     {
-      "Id": "/Users/shubhkarandhillon/Projects/part3/part3/wwwroot/images/browse.png",
-      "PackagePath": "staticwebassets/images/browse.png"
+      "Id": "/Users/shubhkarandhillon/Projects/part3/part3/wwwroot/images/browse_comp.png",
+      "PackagePath": "staticwebassets/images/browse_comp.png"
     },
     {
       "Id": "/Users/shubhkarandhillon/Projects/part3/part3/wwwroot/images/contact.png",
@@ -31,10 +31,6 @@
     {
       "Id": "/Users/shubhkarandhillon/Projects/part3/part3/wwwroot/images/feedback.png",
       "PackagePath": "staticwebassets/images/feedback.png"
-    },
-    {
-      "Id": "/Users/shubhkarandhillon/Projects/part3/part3/wwwroot/images/pngegg.png",
-      "PackagePath": "staticwebassets/images/pngegg.png"
     },
     {
       "Id": "/Users/shubhkarandhillon/Projects/part3/part3/wwwroot/js/site.js",
