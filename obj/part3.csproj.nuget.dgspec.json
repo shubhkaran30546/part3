@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/shubhkarandhillon/Projects/part3/part3/part3.csproj": {}
+    "/Users/shubhkarandhillon/Desktop/TMA3A/part4/part3/part3/part3.csproj": {}
   },
   "projects": {
-    "/Users/shubhkarandhillon/Projects/part3/part3/part3.csproj": {
+    "/Users/shubhkarandhillon/Desktop/TMA3A/part4/part3/part3/part3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shubhkarandhillon/Projects/part3/part3/part3.csproj",
+        "projectUniqueName": "/Users/shubhkarandhillon/Desktop/TMA3A/part4/part3/part3/part3.csproj",
         "projectName": "part3",
-        "projectPath": "/Users/shubhkarandhillon/Projects/part3/part3/part3.csproj",
+        "projectPath": "/Users/shubhkarandhillon/Desktop/TMA3A/part4/part3/part3/part3.csproj",
         "packagesPath": "/Users/shubhkarandhillon/.nuget/packages/",
-        "outputPath": "/Users/shubhkarandhillon/Projects/part3/part3/obj/",
+        "outputPath": "/Users/shubhkarandhillon/Desktop/TMA3A/part4/part3/part3/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/shubhkarandhillon/.nuget/NuGet/NuGet.Config"

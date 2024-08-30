@@ -26,10 +26,15 @@ body {
     color:white;
 }
 .navbar-nav .nav-item .nav-link:hover {
-    color: #007bff; /* Change to desired hover text color */
-    background-color: #f8f9fa; /* Change to desired hover background color */
-    border-radius: 0.25rem; /* Optional: add border radius for rounded corners */
+    color: #007bff; 
+    background-color: #f8f9fa; 
+    border-radius: 0.25rem; 
 }
+/*.btn {
+    margin: 10px;
+    color: #007bff;
+    background-color: #f8f9fa;
+}*/
 .navbar-nav .nav-item .nav-link {
     transition: color 0.3s, background-color 0.3s;
 }
